@@ -16,7 +16,6 @@ def withdraww():
         on_card = deposit
         print("You have",on_card,"dollars on card" )
   #Deposit code
-        on_card = on_card + deposit
         print("you have", on_card, "dollars on card")
     #withdraw code
         if on_card != 0:
