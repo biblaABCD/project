@@ -18,7 +18,7 @@ def withdraww():
   #Deposit code
         print("you have", on_card, "dollars on card")
     #withdraw code
-        if on_card != 0:
+        if on_card >= 0:
                 withdraw = int(input("how much do you want to withdraw: "))
                 if withdraw <= on_card:
                         on_card = on_card - withdraw
